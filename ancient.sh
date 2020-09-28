@@ -72,6 +72,8 @@ rm -rf ${OUT_PATH}/${ROM_ZIP} #clean rom zip in any case
 
 # Time to build
 source build/envsetup.sh
+export KBUILD_BUILD_USER=Smokey
+export KBUILD_BUILD_HOST=StormBreaker
 lunch ancient_"$device_codename"-"$build_type"
 make bacon -j32
 
