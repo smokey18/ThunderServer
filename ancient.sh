@@ -8,7 +8,7 @@ user=smokey
 OUT_PATH="out/target/product/$device_codename"
 tg_username=@smokey_18
 ROM_ZIP=AncientOS*.zip
-folderid=gdrive_folder_id
+folderid=1Q3QHjyL19VlmeD4QDIif_ngdjGSvnPku
 tgsend_conf=smokey.conf
 START=$(date +%s)
 
